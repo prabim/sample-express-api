@@ -1,0 +1,27 @@
+{
+  "name": "api-simple",
+  "version": "1.0.0",
+  "description": "This is a simple api to know how to creat ea backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "test": "ava"
+  },
+  "keywords": [
+    "Express",
+    "JS"
+  ],
+  "author": "TechJatra",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/node": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "ava": "^6.4.1",
+    "nodemon": "^3.1.14"
+  }
+}
